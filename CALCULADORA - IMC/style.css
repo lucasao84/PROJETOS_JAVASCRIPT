@@ -26,6 +26,7 @@ body {
 hr {
     background-color: black;
     padding: 2px;
+    border: none;
 }
 
 h1 {
@@ -54,6 +55,7 @@ main > div.input {
     padding: 20px;
     font-weight: 600;
     display: block;
+   
     
     
 
@@ -66,6 +68,22 @@ main > div.input > input {
     
     
 }
+
+input[type="text"] {
+    width: 200px; /* Defina a largura do input conforme necessário */
+    text-align: center; /* Centralizar o texto horizontalmente */
+    line-height: 30px; /* Centralizar o texto verticalmente, ajuste conforme necessário */
+    padding: 5px; /* Adicionar um pouco de espaço interno para melhor aparência */ 
+    font-weight: bold;
+  }
+
+  input[type="number"] {
+    width: 200px; /* Defina a largura do input conforme necessário */
+    text-align: center; /* Centralizar o texto horizontalmente */
+    line-height: 30px; /* Centralizar o texto verticalmente, ajuste conforme necessário */
+    padding: 5px; /* Adicionar um pouco de espaço interno para melhor aparência */
+    font-weight: bold;
+  }
 
  main > div.input > label {
 
@@ -81,7 +99,7 @@ main > button {
     background-color: black;
     color: rgb(204, 204, 18);
     border: none;
-    width: 70%;
+    width: 75%;
     height: 30px;
     cursor: pointer;
     border-radius: 5px;
@@ -91,7 +109,7 @@ main > button {
 
 #resultado {
     background-color: black;
-    width: 70%;
+    width: 75%;
     display: block;
     margin: auto;
     margin-top: 18px;
@@ -100,6 +118,7 @@ main > button {
     color: yellow;
     padding: 10px;
     box-shadow: 2px 2px 10px black;
+    
 }
 #resultado > p {
     font-size: 1em;
