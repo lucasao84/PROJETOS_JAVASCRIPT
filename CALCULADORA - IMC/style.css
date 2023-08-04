@@ -118,12 +118,14 @@ main > button {
     color: yellow;
     padding: 10px;
     box-shadow: 2px 2px 10px black;
+    text-align: center;
     
 }
 #resultado > p {
     font-size: 1em;
     text-align: center;
     margin-top: 20px;
+    
 }
 
 
